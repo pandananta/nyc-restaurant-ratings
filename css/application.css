@@ -1,0 +1,37 @@
+svg {
+  background: white;
+}
+
+#nyc-zipcodes path {
+  stroke: gray;
+  stroke-width: 1px;
+}
+
+
+#chart{
+	width:1000px;
+}
+
+
+.q1-9 { fill:rgb(254, 229, 217); } /*A+*/
+.q2-9 { fill:rgb(254, 229, 217); } /*A*/
+.q3-9 { fill:rgb(252, 174, 145); } /*A-*/
+.q4-9 { fill:rgb(251, 106, 74); } /*B+*/
+.q5-9 { fill:rgb(251, 106, 74); } /*B*/
+.q6-9 { fill:rgb(203, 24, 29); } /*B-*/
+.q7-9 { fill:rgb(203, 24, 29); } /*C+*/
+.nodata{fill:white;}
+
+.k0{text-align: center;}
+.k1-9 { background-color:rgb(254, 229, 217); } /*A+*/
+.k3-9 { background-color:rgb(252, 174, 145); } /*A-*/
+.k4-9 { background-color:rgb(251, 106, 74); } /*B+*/
+.k6-9 { background-color:rgb(203, 24, 29); } /*B-*/
+
+
+.key{border-style: solid; border-width: 1px; border-color: black; width:100px; position: absolute; // reposition logo from the natural layout
+  left: 75px;
+  top: 50px;
+  z-index: 2; }
+
+
